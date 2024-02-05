@@ -6,16 +6,16 @@ export const currApi = createApi({
     }),
     endpoints:(builder)=>({
      getCurrListSymbols:builder.query({
-        query:(body)=>"symbols?api_key=a5d7976dfde7c32aaaa5290b28ed435c"
+        query:(body)=>"symbols?api_key=30d02ee45fb87cb0ee5ab95357d45157"
      }),
      getCurrListlatest:builder.query({
-        query:(body)=>"latest?api_key=a5d7976dfde7c32aaaa5290b28ed435c"
+        query:(body)=>"latest?api_key=30d02ee45fb87cb0ee5ab95357d45157"
      }),
      getCurrListRateOnspecificDate:builder.query({
         query:(date)=>{
             console.log(date)
             return ({
-            url:`${date}?api_key=a5d7976dfde7c32aaaa5290b28ed435c`,
+            url:`${date}?api_key=30d02ee45fb87cb0ee5ab95357d45157`,
             method:"GET"
         })
     }

@@ -13,9 +13,9 @@ function Header() {
       <NavLink to='/rates'>
         Exchange rates
       </NavLink>
-      <NavLink to='/hrates'>
+      {/* <NavLink to='/hrates'>
         Historical Rate for specific date
-      </NavLink>
+      </NavLink> */}
       </div>
     </div>
   )
