@@ -1,0 +1,20 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    padding: 2vh 2vw;
+    background-color:rgb(26, 25, 25);
+    color: white;
+    border-radius: 10px;
+    height: 10vh;
+}
+.cardH3,.cardInfop{
+    margin: 0;
+    color: white;
+}
+.cardContainer:hover{
+    background-color:rgba(30, 28, 28, 0.847);
+    transition: all 0.3s;
+    cursor: pointer;
+    
+}

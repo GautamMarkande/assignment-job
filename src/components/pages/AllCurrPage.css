@@ -1,0 +1,7 @@
+.AllCurrPageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: center;
+    margin-top: 10vh;
+}

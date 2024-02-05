@@ -1,0 +1,20 @@
+.HomeContainer{
+    color:black;
+    margin-top:10vh;
+    padding-left: 5vw;
+}
+
+.WelcomeText{
+    margin: 0;
+    font-size: 3rem;
+}
+.HomeHead{
+    font-size: 5rem;
+    margin: 0;
+    width: fit-content;
+}
+.HomeHead:hover{
+    color:white;
+    -webkit-text-stroke: 2px black;
+    transition: all 0.3s;
+}

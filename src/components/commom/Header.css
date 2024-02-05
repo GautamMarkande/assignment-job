@@ -1,0 +1,29 @@
+.headerContainer{
+    display:flex;
+    background-color:rgb(26, 25, 25);
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.headerHeading{
+    color: white;
+}
+.links{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgba(165, 163, 163, 0.847);
+    transition: all 0.3s;
+}
+.active{
+    color: rgba(165, 163, 163, 0.847);
+}

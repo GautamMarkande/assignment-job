@@ -1,0 +1,26 @@
+.RateContainerMain{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10vh;
+    gap: 2vw;
+    align-self: flex-start;
+    padding-left: 8vw;
+}
+.RateContainerMain span{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+.RateContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    gap: 2vw;
+}
+.date{
+    font-size: 1.5rem;
+    padding: 0.2em;
+    border-radius: 5px;
+}
